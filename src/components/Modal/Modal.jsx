@@ -8,8 +8,8 @@ const clip_anim = {
         WebkitClipPath: "circle(0 at 0% 50%)"
     },
     enter: {
-        clipPath: "circle(150% at 50% 50%)",
-        WebkitClipPath: "circle(150% at 50% 50%)",
+        clipPath: "circle(140% at 0 14%)",
+        WebkitClipPath: "circle(140% at 0 14%)",
         transition: {
             duration: 1, // Adjust duration
             ease: "easeInOut", // Smooth easing
