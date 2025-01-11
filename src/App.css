@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.smooth-h1 {
+  font-size: 12vw;
+  font-family: "Poppins";
+  font-weight: 450;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 4vh;
+  margin: 0;
+  animation: slide 12s linear infinite;
+  display: inline-flex;
+  gap: 12px;
+  padding: 0;
+  letter-spacing: -0.05em;
+}
+
+.smooth-hero {
+  width: 100svw;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  width: calc(var(--text-width) * 2); /* Dynamically set based on text width */
+  height: 100svh;
+}
+
+.smooth-hero span {
+  display: inline-block;
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(calc(-1 * var(--text-width)));
+    transform: translateX(calc(-1 * var(--text-width)));
+  }
+}

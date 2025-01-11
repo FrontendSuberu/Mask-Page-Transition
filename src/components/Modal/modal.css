@@ -1,0 +1,44 @@
+.modal-wrapper {
+  width: 100svw;
+  height: 100svh;
+  background: #FE4A22;
+  position: fixed;
+  z-index: 500;
+}
+
+.modal-wrapper button {
+  padding: 12px 20px;
+  position: fixed;
+  right: 2%;
+  top: 4%;
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  outline: 2px solid rgb(59, 55, 55);
+  border: none;
+  cursor: pointer;
+}
+
+.modal-wrapper button:hover{
+    background: black;
+    color: white;
+    outline-color: black;
+  }
+
+
+.modal-content h1 {
+  font-size: 24px;
+  font-weight: 450;
+  color: white;
+  letter-spacing: -0.06em;
+  font-family: "Poppins", "sans-serif";
+  padding-top: 34%;
+  padding-inline: 20px;
+}
+
+@media (min-width: 768px) {
+  .modal-content h1 {
+    padding-top: 40px;
+    font-size: 54px;
+    padding-inline: 20px;
+  }
+}
