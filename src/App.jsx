@@ -1,6 +1,5 @@
 import './App.css'
 import React, { useRef, useEffect, useState } from "react";
-import Modal from './components/Modal/Modal';
 import Header from './components/header/Header';
 
 function App() {
